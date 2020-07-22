@@ -1,4 +1,5 @@
 # Renee
+Renee is a toolchain to enable formal verification using automatic theorem proving in PVS (Prototype Verification System). This toolchain is built using open source tools. It takes an ARM binary and generates code in the Renee Specification Language by reverse engineering the binary and extracting information such as control flow graphs and loops in basic blocks from the binary. The validity of the translation from binary to RSL is verified using the Unicorn Test Generator.
 
 ## unicron-test-generation
 Test generation for ARM v8 functions for verification using PVS.
